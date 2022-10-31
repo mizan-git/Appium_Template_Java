@@ -1,0 +1,13 @@
+{
+  "theme": "STANDARD",
+  "encoding": "utf-8",
+  "protocol": "HTTPS",
+  "timelineEnabled": false,
+  "offlineMode": true,
+  "thumbnailForBase64": false,
+  "documentTitle": "Extent Reports",
+  "reportName": "<img src='Logo/MizanLogo.png' style='width:110px;height:38px;'/><span style='color:white;font-weight:bold;font-size:200%'>Daraz Automation Report</span>",
+  "timeStampFormat": " dd MMM, yyyy HH:mm:ss a",
+  "js": "",
+  "css": ".badge-primary { background-color: #112843;}"
+}

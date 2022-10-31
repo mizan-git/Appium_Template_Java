@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FinalAutomation]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utility.Listener"/>
+  </listeners>
+  <test thread-count="5" name="OrderEntryToPackage(failed)">
+    <classes>
+      <class name="demo_Module1.Demo_TestCase1">
+        <methods>
+          <include name="beforeClasse"/>
+          <include name="TearDown"/>
+          <include name="DemoTestCase_1"/>
+          <include name="BasicSetup"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- demo_Module1.Demo_TestCase1 -->
+      <class name="demo_Module2.Demo_TestCase2">
+        <methods>
+          <include name="beforeClasse"/>
+          <include name="TearDown"/>
+          <include name="BasicSetup"/>
+          <include name="CloseBrowser"/>
+          <include name="LogOut_4"/>
+        </methods>
+      </class> <!-- demo_Module2.Demo_TestCase2 -->
+    </classes>
+  </test> <!-- OrderEntryToPackage(failed) -->
+</suite> <!-- Failed suite [FinalAutomation] -->

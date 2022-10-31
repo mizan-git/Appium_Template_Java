@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="darazAppPackage.DeleteProduct_TestCase">
+        <methods>
+          <include name="deleteProductFromCart"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- darazAppPackage.DeleteProduct_TestCase -->
+      <class name="darazAppPackage.Login_TestCase">
+        <methods>
+          <include name="LoginWithGoogleAccount"/>
+          <include name="LocationAndLanguageSetting"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- darazAppPackage.Login_TestCase -->
+      <class name="darazAppPackage.CheckOut_TestCase">
+        <methods>
+          <include name="CheckOutItems"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- darazAppPackage.CheckOut_TestCase -->
+      <class name="darazAppPackage.SearchProduct_TestCase">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="SearchProdeuct"/>
+        </methods>
+      </class> <!-- darazAppPackage.SearchProduct_TestCase -->
+      <class name="darazAppPackage.ViewDetail_TestCase">
+        <methods>
+          <include name="viewProductDetails"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- darazAppPackage.ViewDetail_TestCase -->
+      <class name="darazAppPackage.AddToCart_TestCase">
+        <methods>
+          <include name="addToCart"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- darazAppPackage.AddToCart_TestCase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
